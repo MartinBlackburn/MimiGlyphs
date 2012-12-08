@@ -1,0 +1,381 @@
+/*----------------------------------------------------------------------------------------------------------------*\
+    BASIC RESET - please use a better one in production
+\*----------------------------------------------------------------------------------------------------------------*/
+* {
+	margin: 0;
+	padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.pageContainer {
+	width: 700px;
+	padding: 30px 10px;
+    margin: 0 auto;
+}
+
+.textContainer {
+    padding-top: 20px;
+    
+    text-align: center;
+}
+
+.textContainer a {
+	color: #333;
+}
+
+.icons ul {
+	list-style: none;
+}
+
+.icons li {
+	margin-right: 25px;
+	margin-bottom: 25px;
+	display: inline-block;
+}
+
+
+
+
+
+/*----------------------------------------------------------------------------------------------------------------*\
+    ICONS
+\*----------------------------------------------------------------------------------------------------------------*/
+.icon {
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	
+	background: url("../images/icons-dark.png") no-repeat;
+}
+
+.icon.white {
+	background: url("../images/icons-white.png") no-repeat;
+}
+
+.icon.dock {
+	background-position: 0 0;
+}
+
+.icon.dock2 {
+	background-position: -32px 0;
+}
+
+.icon.camera {
+	background-position: -64px 0;
+}
+
+.icon.archives {
+	background-position: -96px 0;
+}
+
+.icon.archivesEmpty {
+	background-position: -128px 0;
+}
+
+.icon.home {
+	background-position: -160px 0;
+}
+
+.icon.search {
+	background-position: -192px 0;
+}
+
+.icon.note {
+	background-position: -224px 0;
+}
+
+.icon.files {
+	background-position: -256px 0;
+}
+
+.icon.file {
+	background-position: -288px 0;
+}
+
+.icon.files2 {
+	background-position: 0 -32px;
+}
+
+.icon.file2 {
+	background-position: -32px -32px;
+}
+
+.icon.user {
+	background-position: -64px -32px;
+}
+
+.icon.users {
+	background-position: -96px -32px;
+}
+
+.icon.leftArrow {
+	background-position: -128px -32px;
+}
+
+.icon.rightArrow {
+	background-position: -160px -32px;
+}
+
+.icon.mouse {
+	background-position: -192px -32px;
+}
+
+.icon.picture {
+	background-position: -224px -32px;
+}
+
+.icon.settings {
+	background-position: -256px -32px;
+}
+
+.icon.pointer {
+	background-position: -288px -32px;
+}
+
+.icon.notes {
+	background-position: 0 -64px;
+}
+
+.icon.cd {
+	background-position: -32px -64px;
+}
+
+.icon.id {
+	background-position: -64px -64px;
+}
+
+.icon.grid {
+	background-position: -96px -64px;
+}
+
+.icon.list {
+	background-position: -128px -64px;
+}
+
+.icon.plus {
+	background-position: -160px -64px;
+}
+
+.icon.minus {
+	background-position: -192px -64px;
+}
+
+.icon.cloud {
+	background-position: -224px -64px;
+}
+
+.icon.pen {
+	background-position: -256px -64px;
+}
+
+.icon.phone {
+	background-position: -288px -64px;
+}
+
+.icon.ipod {
+	background-position: 0 -96px;
+}
+
+.icon.headphones {
+	background-position: -32px -96px;
+}
+
+.icon.lightning {
+	background-position: -64px -96px;
+}
+
+.icon.pie {
+	background-position: -96px -96px;
+}
+
+.icon.speach {
+	background-position: -128px -96px;
+}
+
+.icon.speach2 {
+	background-position: -160px -96px;
+}
+
+.icon.star {
+	background-position: -192px -96px;
+}
+
+.icon.monitor {
+	background-position: -224px -96px;
+}
+
+.icon.halfCircle {
+	background-position: -256px -96px;
+}
+
+.icon.heart {
+	background-position: -288px -96px;
+}
+
+
+
+
+.icon.moveArrow {
+	
+}
+
+.icon.rightLeftArrows {
+	
+}
+
+.icon.enlargeArrows {
+	
+}
+
+.icon.shrinkArrows {
+	
+}
+
+.icon.refresh {
+	
+}
+
+.icon.shuffle {
+	
+}
+
+.icon.replyArrow {
+	
+}
+
+.icon.fourArrows {
+	
+}
+
+.icon.rightArrow {
+	
+}
+
+.icon.doubleArrow {
+	
+}
+
+.icon.trash {
+	
+}
+
+.icon.cross {
+	
+}
+
+.icon.tick {
+	
+}
+
+.icon.glass {
+	
+}
+
+.icon.icecream {
+	
+}
+
+.icon.gamepad {
+	
+}
+
+.icon.mail {
+	
+}
+
+.icon.car {
+	
+}
+
+.icon.scisors {
+	
+}
+
+.icon.paperplane {
+	
+}
+
+.icon.lightbulb {
+	
+}
+
+.icon.calculator {
+	
+}
+
+.icon.boat {
+	
+}
+
+.icon.cup {
+	
+}
+
+.icon.creditcard {
+	
+}
+
+.icon.tag {
+	
+}
+
+.icon.position1 {
+	
+}
+
+.icon.position2 {
+	
+}
+
+.icon.position3 {
+	
+}
+
+.icon.calendar {
+	
+}
+
+.icon.knifefork {
+	
+}
+
+.icon.video {
+	
+}
+
+.icon.bars {
+	
+}
+
+.icon.flag {
+	
+}
+
+.icon.microphone {
+	
+}
+
+.icon.facebook {
+	
+}
+
+.icon.twitter {
+	
+}
+
+.icon.flickr {
+	
+}
+
+.icon.vimeo {
+	
+}
+
+.icon.dribble {
+	
+}
