@@ -217,48 +217,47 @@
 	background-position: -288px -96px;
 }
 
-
-
-
 .icon.moveArrow {
-	
+    background-position: 0 -128px;
 }
 
 .icon.rightLeftArrows {
-	
+    background-position: -32px -128px;
 }
 
 .icon.enlargeArrows {
-	
+    background-position: -64px -128px;
 }
 
 .icon.shrinkArrows {
-	
+    background-position: -96px -128px;
 }
 
 .icon.refresh {
-	
+    background-position: -128px -128px;
 }
 
 .icon.shuffle {
-	
+    background-position: -160px -128px;
 }
 
 .icon.replyArrow {
-	
+    background-position: -192px -128px;
 }
 
 .icon.fourArrows {
-	
+    background-position: -224px -128px;
 }
 
 .icon.rightArrow {
-	
+    background-position: -256px -128px;
 }
 
 .icon.doubleArrow {
-	
+    background-position: -288px -128px;
 }
+
+
 
 .icon.trash {
 	
