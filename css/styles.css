@@ -28,13 +28,27 @@
 	color: #333;
 }
 
+.icons {
+	padding: 15px;
+	padding-bottom: 5px;
+	border: 1px solid #ccc;
+	margin-bottom: 20px;
+	
+	text-align: center;
+}
+
+.icons.white {
+	background: #333;
+	
+	color: #fff;
+}
+
 .icons ul {
 	list-style: none;
 }
 
 .icons li {
-	margin-right: 25px;
-	margin-bottom: 25px;
+	margin: 0 10px 20px 10px;
 	display: inline-block;
 }
 
